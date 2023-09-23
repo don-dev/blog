@@ -1,12 +1,12 @@
 
 ## 🚀 VisVrs: An Astro Theme for Visual Storytelling
 
+This theme was forked for the initial start of don-dev/blog
 VisVrs, originating from 'Visual' and 'Verse', is an Astro theme tailored for impactful photo-text blogging, ideal for content creators.
 
 ## 🔤 Readme
 
 - [**English**](https://github.com/isooosi/VisVrs/blob/main/README.md)
-- [**中文**](https://github.com/isooosi/VisVrs/blob/main/README.zh.md)
 
 ## 💯Lighthouse Score
 
@@ -37,15 +37,8 @@ VisVrs, originating from 'Visual' and 'Verse', is an Astro theme tailored for im
 
 - [ ] Pagination
 
-We **really** welcome you to contribute to VisVrs!
-
-## 🎡 Live demo
 
 [**VisVrs**](visvrs.vercel.app)
-
-## 👬 Repositories using this theme
-
-- [**iSooSi**](https://isoosi.xyz)
 
 ## 💻 Running Locally
 
