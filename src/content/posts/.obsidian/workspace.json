@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "c2740de4e5524c8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "522b215ed832d527",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c889ceb952933f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/10/02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "20b6dfa2e12c4b15",
+    "type": "split",
+    "children": [
+      {
+        "id": "026666fbb66f93d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5675b1d79c0b068e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8a5321d23991c733",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d6cbde0fa31d562e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e7bed9a189fb8211",
+    "type": "split",
+    "children": [
+      {
+        "id": "15adceedd45116c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16b5541ade9bce4c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2023/10/02.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eb9f810634b0519a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2023/10/02.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a04a44446a454ed7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "55871a021949cd0f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2023/10/02.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1c889ceb952933f1",
+  "lastOpenFiles": [
+    "Pasted image 20231002131228.png",
+    "Pasted image 20231002131155.png",
+    "2023/10/02.md~",
+    "third-post.md",
+    "2023/10/02.md",
+    "2023/10",
+    "2023",
+    "sketches.md",
+    "second-post.md",
+    "markdown-style-guide.md",
+    "first-post.md"
+  ]
+}
