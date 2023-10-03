@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/10/02.md",
+                "file": "2023/10/03.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/10/02.md",
+                "file": "2023/10/03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/10/02.md",
+                "file": "2023/10/03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/10/02.md"
+                "file": "2023/10/03.md"
               }
             }
           }
@@ -146,13 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c889ceb952933f1",
+  "active": "5675b1d79c0b068e",
   "lastOpenFiles": [
+    "2023/10/02.md",
+    "2023/10/03.md",
     "Pasted image 20231002131228.png",
     "Pasted image 20231002131155.png",
     "2023/10/02.md~",
     "third-post.md",
-    "2023/10/02.md",
     "2023/10",
     "2023",
     "sketches.md",
