@@ -23,5 +23,19 @@ const { frontmatter } = Astro.props;
   </div>
   <article class='max-w-2xl mx-auto'>
     <slot />
+  <div id="disqus_thread" client:load></div>
+<script client:load>
+    var disqus_config = function () {
+    this.page.url = frontmatter.url;  
+    this.page.identifier = frontmatter.title; 
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://donalcasey-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </article>
 </BaseLayout>
