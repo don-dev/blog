@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/2024/01/Barcelona Pass.md",
+                "file": "2024/01/13.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/2024/01/Barcelona Pass.md",
+                "file": "2024/01/13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/2024/01/Barcelona Pass.md",
+                "file": "2024/01/13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/2024/01/Barcelona Pass.md"
+                "file": "2024/01/13.md"
               }
             }
           }
@@ -148,15 +148,27 @@
   },
   "active": "1f8cb56a60aecb6d",
   "lastOpenFiles": [
-    "2023/2024/01/13.md",
-    "2023/2024/01/Barcelona Pass.md",
-    "2023/12/03.md",
-    "2023/2024/01",
-    "2023/2024",
+    "Pasted image 20240307122254.png",
+    "coffee_9.png",
+    "coffee_8.png",
+    "coffee_7.png",
+    "coffee_6.png",
+    "coffee_5.png",
+    "coffee_4.png",
+    "coffee_3.png",
+    "coffee_2.png",
+    "coffee_1.png",
+    "2024/01/13.md",
+    "Pasted image 20240307122725.png",
     "2023/12/10.md",
+    "2023/12/03.md",
+    "2023/11/05.md",
     "2023/11/11.md",
     "2023/11/19.md",
-    "2023/11/05.md",
+    "2023/2024/01/13.md",
+    "2023/2024/01/Barcelona Pass.md",
+    "2023/2024/01",
+    "2023/2024",
     "2023/12"
   ]
 }
