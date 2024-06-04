@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import Quiz from 'react-quiz-component';
+import { quiz } from './quiz/quiz';
+
+let allPosts = await getCollection('posts');
+allPosts.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+---
+
+<BaseLayout >
+	<h1>Projects</h1>
+	<h2>Failed to Mention:</h2>
+	<p>These all should be converted to a flutter app or web app</p>
+	<p>just start by using todoist and toggl apis to components on this page</p>
+	<ol>
+		<li>
+			<h2>ts && ts ls</h2>
+			<h3>Time Start and Start from List</h3>
+			<p> Update all to use `tm` and consider ingesting tags or using no tags. This will allow reporting to be billable and non-billable for work or for at home life</p>
+		<hr/>
+		<h3>Time Start</h3>
+		<p>Where does ts currently run?</p>
+
+		<br/>
+		<br/>
+		</li>
+		<li>
+			<h2>addtodo, rmtodo && enotes, addnote</h2>
+			<h3>Todo and Notes</h3>
+			<p> update to one lm command to add a todo or note. This will allow for a more streamlined work/life blend of functionality</p>
+		</li>
+		<li>
+			<h2>timers pomodoros</h2>
+			<h3>Timers and Pomodoros</h3>
+			<p> update wo and br to pm. to allow for different types of timers. Remove current FZF impplementation and place in tm with options</p>
+		</li>
+		<li>
+			<h2>work && life</h2>
+		</li>
+		<li>
+			<h2>esdic</h2>
+		</li>
+	</ol>
+</BaseLayout>
