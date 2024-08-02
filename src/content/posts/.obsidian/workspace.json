@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/02/14.md",
+                "file": "2024/05/01.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Browser",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/02/14.md",
+                "file": "2024/05/01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/02/14.md",
+                "file": "2024/05/01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/02/14.md"
+                "file": "2024/05/01.md"
               }
             }
           }
@@ -146,48 +146,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91cbcc512cf11cb2",
+  "active": "7775cffc6e881103",
   "lastOpenFiles": [
+    "2024/05/10.md~",
+    "2024/05/01.md~",
+    "2024/05/05.md~",
+    "Pasted_image_20240715114332.png",
+    "Pasted_image_20240715114306.png",
+    "Pasted_image_20240715114254.png",
+    "Pasted_image_20240715114223.png",
+    "Pasted_image_20240715114204.png",
+    "Pasted_image_20240715114150.png",
+    "Pasted_image_20240715114139.png",
+    "Pasted_image_20240715114128.png",
+    "Pasted_image_20240715114029.png",
+    "Pasted_image_20240715114014.png",
+    "2024/05/05.md",
+    "2024/05/01.md",
+    "2024/05/29.md",
+    "2024/05/10.md",
+    "2024/04/06.md",
+    "2024/04/19.md",
+    "2024/04/25.md",
+    "2024/04/25.md~",
+    "markdown-style-guide.md",
+    "2024/02/14.md",
+    "2024/05",
     "2024/02/14.md~",
     "2024/02/17.md",
     "2024/03/17.md",
     "2024/03/19.md",
     "2024/03/19.md~",
-    "Pasted image 20240603105434.png",
-    "2024/04/06.md",
-    "2024/04/19.md",
     "2024/03/20.md",
     "2024/04/10.md",
     "2023/12/03.md",
     "2023/12/10.md",
     "2024/01/13.md",
-    "2024/02/14.md",
     "2024/03/17.md~",
     "2024/04/19.md~",
     "2024/04/06.md~",
     "2023/10/22.md",
-    "Pasted image 20240422093410.png",
-    "Pasted image 20240422102231.png",
-    "Pasted image 20240422102211.png",
-    "Pasted image 20240422102146.png",
-    "Pasted image 20240422102114.png",
-    "Pasted image 20240422101429.png",
-    "Pasted image 20240422101129.png",
     "2024/04",
-    "Pasted image 20240422100825.png",
-    "Pasted image 20240422094141.png",
-    "2024/03",
-    "2024/02",
-    "2024/01",
-    "2024",
-    "2023/12",
     "2023/11/19.md",
     "2023/11/18.md",
     "2023/11/11.md",
     "2023/11/05.md",
     "sketches.md",
     "2023/2024/02/20.md",
-    "2023/2024/01/13.md",
-    "2023/2024/01/Barcelona Pass.md"
+    "2023/2024/01/13.md"
   ]
 }
