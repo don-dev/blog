@@ -1,0 +1,14 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import Quiz from 'react-quiz-component';
+import { quiz } from './quiz/quiz';
+
+let allPosts = await getCollection('posts');
+allPosts.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+---
+
+<BaseLayout >
+	<Quiz client:load quiz={quiz}/>
+</BaseLayout>

@@ -7,25 +7,23 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 
 // Astro Configuration
+import react from "@astrojs/react";
+
+// https://astro.build/config
 export default defineConfig({
   // Site Information
   site: 'https://visvrs.vercel.app',
-
   // Markdown Configuration
   markdown: {
     // Using custom Remark plugin to get modified time
     remarkPlugins: [remarkModifiedTime]
   },
-
   // Third-party Integrations
   integrations: [
-    // Tailwind CSS for styling
-    tailwind(),
-
-    // Sitemap generator
-    sitemap(),
-
-    // MDX support
-    mdx()
-  ]
+  // Tailwind CSS for styling
+  tailwind(),
+  // Sitemap generator
+  sitemap(),
+  // MDX support
+  mdx(), react()]
 });
