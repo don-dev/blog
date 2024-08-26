@@ -7,7 +7,7 @@ import '../styles/global.css';
 
 const { 
   entry,
-  pageTitle = 'Don-Dev', 
+  pageTitle = 'DONDEv', 
   description = 'Portfolio of many things and a blog to comment on it',
   cover = '/open-graph.webp' 
 } = Astro.props;
@@ -55,8 +55,8 @@ const {
 
   <body class='mx-auto prose prose-neutral px-4 prose-img:rounded dark:prose-invert dark:bg-neutral-900 lg:max-w-screen-lg'>
   <Header />
-    <h1 class='text-center'>{pageTitle}</h1>
-	<a href="/" alt-text="DON-DEV"><img src={LogoGif.src} /></a>
+    <h1 class='text-center' style="visibility:hidden">{pageTitle}</h1>
+	<a href="/" alt-text="DON-DEV"><img style="margin: 35px auto 65px;" src={LogoGif.src} /></a>
     <slot />
     <Footer />
   </body>
