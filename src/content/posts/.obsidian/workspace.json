@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/05/01.md",
+                "file": "2023/10/22.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/05/01.md",
+                "file": "2023/10/22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/05/01.md",
+                "file": "2023/10/22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/05/01.md"
+                "file": "2023/10/22.md"
               }
             }
           }
@@ -146,8 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7775cffc6e881103",
+  "active": "91cbcc512cf11cb2",
   "lastOpenFiles": [
+    "2023/10/04.md",
+    "2023/10/03.md",
+    "2023/10/02.md",
+    "2024/08/01.md",
+    "2024/09/01.md",
+    "2024/10/01.md",
+    "2024/10",
+    "2024/05/01.md",
+    "2024/09",
+    "2024/08",
+    "2024/07",
+    "2024/06",
     "2024/05/10.md~",
     "2024/05/01.md~",
     "2024/05/05.md~",
@@ -162,7 +174,6 @@
     "Pasted_image_20240715114029.png",
     "Pasted_image_20240715114014.png",
     "2024/05/05.md",
-    "2024/05/01.md",
     "2024/05/29.md",
     "2024/05/10.md",
     "2024/04/06.md",
@@ -172,27 +183,16 @@
     "markdown-style-guide.md",
     "2024/02/14.md",
     "2024/05",
-    "2024/02/14.md~",
     "2024/02/17.md",
     "2024/03/17.md",
     "2024/03/19.md",
-    "2024/03/19.md~",
     "2024/03/20.md",
     "2024/04/10.md",
     "2023/12/03.md",
     "2023/12/10.md",
     "2024/01/13.md",
-    "2024/03/17.md~",
-    "2024/04/19.md~",
-    "2024/04/06.md~",
     "2023/10/22.md",
-    "2024/04",
     "2023/11/19.md",
-    "2023/11/18.md",
-    "2023/11/11.md",
-    "2023/11/05.md",
-    "sketches.md",
-    "2023/2024/02/20.md",
-    "2023/2024/01/13.md"
+    "2023/11/18.md"
   ]
 }
