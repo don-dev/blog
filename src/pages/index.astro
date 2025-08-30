@@ -8,19 +8,33 @@ allPosts.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pub
 ---
 
 <BaseLayout>
-  {[
-    { start: 0, end: 1, cols: '1', mdCols: '1', lgCols: '1', special: true },
-    { start: 1, end: 3, cols: '1', mdCols: '2', lgCols: '2' },
-    { start: 3, end: allPosts.length, cols: '1', mdCols: '2', lgCols: '3'}
-  ].map(({ start, end, cols, mdCols, lgCols, imgWidth, imgHeight, }) => (
-    <div class={`grid grid-cols-${cols} md:grid-cols-${mdCols} lg:grid-cols-${lgCols} gap-4 ${start === 1 ? 'mt-4 mb-4' : ''}`}>
-      { allPosts.slice(start, end).map((post, index) => (
-          <PostCard 
-            post={post}
-            eagerLoad={start === 0 && index === 0}
-            isSpecialCard={start === 0 && index === 0}
-          />
-      ))}
+    <div class="grid-cols-2 grid">
+        <!-- intro -->
+        <div class="max-w-lg">
+            <h3> Welcome to my playground and blog</h3>
+            <p>This used to be a portfolio site however it never sat right with me. I am not hunting leads or searching for work.</p>
+            <p>Instead, I will continue the space as a blog and sandbox. A place for sharing interactive tools, games, and more. The blog will remain a running commentary on all things. First and center will be the "play things". Hope you enjoy!</p>
+        </div>
+        <div>
+            <!-- 3 blog posts? -->
+        </div>
     </div>
-  ))}
+    <div class="grid-cols-2 grid">
+        <div>
+            <h3>What *are* these?</h3>
+            <p>I tend to script anything I do more than once... Some of this is that. Some of this is born out of necessity like when a free tool goes subscription model. I am also learning spanish and use games and tools to get me there. A couple projects below are built with love and lua! Love2D is amazing and enabling me to develop rapid games to help with Nora's (my 5yo) learning and development.</p>
+        </div>
+        <div class=" px-3">
+            <h4> Sandbox Items </h4>
+            <ul>
+                <li>Spanish Flashcards</li>
+                <li>Wordmunchers ES</li>
+                <li>Princess Nora</li>
+                <li>Pong (lua)</li>
+                <li>Notes</li>
+                <li>Budgets</li>
+                <li>TripInit</li>
+            </ul>
+        </div>
+    </div>
 </BaseLayout>
