@@ -8,9 +8,9 @@ allPosts.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pub
 ---
 
 <BaseLayout>
-    <div class="grid-cols-2 grid">
+    <div class="grid-cols-1 lg:grid-cols-2 grid">
         <!-- intro -->
-        <div class="max-w-lg">
+        <div class="max-w-4xl px-3">
             <h3> Welcome to my playground and blog</h3>
             <p>This used to be a portfolio site however it never sat right with me. I am not hunting leads or searching for work.</p>
             <p>Instead, I will continue the space as a blog and sandbox. A place for sharing interactive tools, games, and more. The blog will remain a running commentary on all things. First and center will be the "play things". Hope you enjoy!</p>
@@ -19,12 +19,12 @@ allPosts.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pub
             <!-- 3 blog posts? -->
         </div>
     </div>
-    <div class="grid-cols-2 grid">
+    <div class="lg:grid-cols-2 grid-cols-1 grid px-3">
         <div>
             <h3>What *are* these?</h3>
             <p>I tend to script anything I do more than once... Some of this is that. Some of this is born out of necessity like when a free tool goes subscription model. I am also learning spanish and use games and tools to get me there. A couple projects below are built with love and lua! Love2D is amazing and enabling me to develop rapid games to help with Nora's (my 5yo) learning and development.</p>
         </div>
-        <div class=" px-3">
+        <div class="mx-5 px-5">
             <h4> Sandbox Items </h4>
             <ul>
                 <li>Spanish Flashcards</li>
