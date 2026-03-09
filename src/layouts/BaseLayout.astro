@@ -41,7 +41,16 @@ const {
 
     <ViewTransitions />
 
-
+<style>
+        .dondev-logo {
+            width: 100%;
+            max-width: 350px;
+        }
+        .logo-lockup {
+            border: 13px solid #222;
+            border-radius: 106% 36%;
+        }
+</style>
   </head>
   
 <!-- Google tag (gtag.js) -->
@@ -55,14 +64,14 @@ const {
 </script>
 
   <body class='mx-auto prose prose-neutral px-4 prose-img:rounded dark:prose-invert dark:bg-neutral-900 lg:max-w-screen-xl'>
-        <div class='grid lg:grid-cols-2 grid-cols-1 items-center'>
-            <a href="/" alt-text="DON-DEV"><img class='sm:mx-auto mx-0' src={LogoGif.src} /></a>
+        <Header />
+        <div class='logo-lockup grid lg:grid-cols-2 grid-cols-1 items-center my-5 lg:my-10'>
+            <a class="width-2" href="/" alt-text="DON-DEV"><img class='dondev-logo mx-5' src={LogoGif.src} /></a>
             <div>
-                <h2 class='text-center my-2 lg:my-7' >Site of an expat, creative, developer...</h2>
-                <h4 class='text-center'>Frequent user of the catchphrase "we can make that at home!"</h4>
+                <h2 class='my-0' >Site of an expat, creative, developer...</h2>
+                <h4 class='my-2 lg:my-7'>Frequent user of the catchphrase "we can make that at home!"</h4>
             </div>
         </div>
-        <Header />
         <div class="mx-5">
             <slot />
         </div>
