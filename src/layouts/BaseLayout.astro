@@ -45,10 +45,60 @@ const {
         .dondev-logo {
             width: 100%;
             max-width: 350px;
+            margin: 0 auto;
+            display: block;
         }
         .logo-lockup {
+      position: relative;
             border: 13px solid #222;
             border-radius: 106% 36%;
+      overflow: visible;
+    }
+    .logo-lockup a {
+      display: block;
+    }
+    .logo-orbit {
+      position: absolute;
+      inset: -13px;
+      pointer-events: none;
+    }
+    .logo-orbit::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 9px;
+      height: 10px;
+      border-radius: 50%;
+      background: #e9e4e4;
+      box-shadow: 0 0 12px rgb(110, 108, 108);
+      offset-path: inset(0 round 106% 36%);
+      offset-distance: 0%;
+      offset-rotate: 0deg;
+      transform: translate(-50%, -50%);
+      animation: logo-orbit 160s linear infinite;
+    }
+    @keyframes logo-orbit {
+      to {
+        offset-distance: 100%;
+      }
+    }
+    @supports not (offset-path: inset(0 round 10px)) {
+      .logo-orbit {
+        animation: logo-orbit-fallback 6s linear infinite;
+        transform-origin: center;
+      }
+      .logo-orbit::after {
+        top: -5px;
+        left: calc(50% - 5px);
+        transform: none;
+        offset-path: none;
+      }
+      @keyframes logo-orbit-fallback {
+        to {
+          transform: rotate(360deg);
+        }
+      }
         }
 </style>
   </head>
@@ -65,16 +115,13 @@ const {
 
   <body class='mx-auto prose prose-neutral px-4 prose-img:rounded dark:prose-invert dark:bg-neutral-900 lg:max-w-screen-xl'>
         <Header />
-        <div class='logo-lockup grid lg:grid-cols-2 grid-cols-1 items-center my-5 lg:my-10'>
-            <a class="width-2" href="/" alt-text="DON-DEV"><img class='dondev-logo mx-5' src={LogoGif.src} /></a>
-            <div>
-                <h2 class='my-0' >Site of an expat, creative, developer...</h2>
-                <h4 class='my-2 lg:my-7'>Frequent user of the catchphrase "we can make that at home!"</h4>
-            </div>
+        <div class='my-12 logo-lockup'>
+        <span class='logo-orbit' aria-hidden='true'></span>
+            <a class="items-center" href="/" alt-text="DON-DEV"><img class='dondev-logo mx-5' src={LogoGif.src} /></a>
         </div>
         <div class="mx-5">
             <slot />
         </div>
-    <Footer />
+    <!-- <Footer /> -->
   </body>
 </html>
